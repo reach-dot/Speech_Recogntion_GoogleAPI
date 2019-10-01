@@ -11,3 +11,7 @@ try:
 
 except:
 	pass
+
+l =range(10)
+for i in l:
+	print(i)
