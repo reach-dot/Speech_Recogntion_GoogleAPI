@@ -15,3 +15,16 @@ except:
 l =range(10)
 for i in l:
 	print(i)
+for i in 10:
+	print(i) 
+	
+	try:
+	print('Guesses:\n' + r.recognize_google(audio3))
+
+except:
+	pass
+try:
+	print('Solutions:\n' + r.recognize_google(audio2))
+
+except:
+	pass
