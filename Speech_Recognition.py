@@ -8,7 +8,8 @@ with sr.Microphone() as source:
 
 try:
 	print('Answer:\n' + r.recognize_google(audio))
-
+	print('Answer:\n' + r.recognize_google(audio2))
+	print('Answer:\n' + r.recognize_google(audio3))
 except:
 	pass
 
